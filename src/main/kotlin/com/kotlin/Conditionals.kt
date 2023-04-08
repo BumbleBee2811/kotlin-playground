@@ -10,6 +10,8 @@ fun main() {
         name
     }
 
+
+
     println("result : $result")
 
     //  1 -> GOLD, 2 -> SILVER, 3 -> BRONZE
