@@ -80,3 +80,4 @@ outTmp/
 kotlin-ide/
 gradlew
 gradlew.bat
+.gradle
