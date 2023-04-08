@@ -78,3 +78,5 @@ outTmp/
 /test.output
 /kotlin-native/dist
 kotlin-ide/
+gradlew
+gradlew.bat
