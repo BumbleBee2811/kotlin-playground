@@ -1,5 +1,5 @@
 .gradle/
-.idea/
+.idea
 build/
 gradlew
 gradlew.bat
@@ -15,7 +15,6 @@ gradle
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
 *.iws
 *.iml
 *.ipr
