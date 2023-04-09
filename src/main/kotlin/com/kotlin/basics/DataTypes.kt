@@ -1,4 +1,4 @@
-package com.kotlin
+package com.kotlin.basics
 
 /**
  * In Kotlin, there is no distinction between primitive and wrapper types

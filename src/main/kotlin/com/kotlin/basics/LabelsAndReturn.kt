@@ -1,4 +1,4 @@
-package com.kotlin
+package com.kotlin.basics
 
 fun main() {
     for (i in 1..5) {

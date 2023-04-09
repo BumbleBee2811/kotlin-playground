@@ -1,4 +1,7 @@
-package com.kotlin
+package com.kotlin.basics
+
+import com.kotlin.functions.courseName
+import com.kotlin.functions.topLevelFunction
 
 /**
  *  Variable declared with 'val' are immutable i.e. values can't be changed after assigning
@@ -16,4 +19,6 @@ fun main() {
     println(age)
     age = 31
     println(age)
+    println("Num is ${topLevelFunction()}")
+    println("Course is $courseName")
 }
