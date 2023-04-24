@@ -21,4 +21,12 @@ fun main() {
     println(age)
     println("Num is ${topLevelFunction()}")
     println("Course is $courseName")
+    println("FK$1234564")
+    val map = mapOf(
+        "benefit" to listOf("dasdhkj\$12354")
+    )
+    println(map)
+
+    val myName = null
+    println(myName ?: "default")
 }
