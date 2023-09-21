@@ -28,4 +28,6 @@ fun main() {
     println("Item name is ${item.name}")
     item.price = 10.0
     println(item.price)
+
+    println("Hello" + " Kotlin")
 }
