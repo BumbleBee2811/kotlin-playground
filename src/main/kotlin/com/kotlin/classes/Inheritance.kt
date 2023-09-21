@@ -13,6 +13,13 @@ open class User(
 //Student class extends the User class
 class Student(name: String) : User(name){
     override var isLoggedIn: Boolean = false
+
+    //Companion object
+    // Referred to static in Java
+    companion object {
+        fun country() = "India"
+        val state : String = "Odisha"
+    }
     override fun login(){
         println("Inside Student login")
     }
@@ -27,6 +34,10 @@ fun main() {
     student.login()
     student.isLoggedIn = true
     println("Logged In value is ${student.isLoggedIn}")
+
+    val country  = Student.country()
+    println("Country is : $country")
+    println("State is : ${Student.state}")
 
     val instructor = Instructor("Dibyajyoti")
     println("name is ${instructor.name}")

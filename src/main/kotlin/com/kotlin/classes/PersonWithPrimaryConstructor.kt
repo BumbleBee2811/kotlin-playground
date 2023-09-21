@@ -8,7 +8,7 @@ class PersonWithPrimaryConstructor(
     var email: String = ""
     var nameLength: Int = 0
 
-    //init block is used to run some initialization logic during the instance cretion
+    //init block is used to run some initialization logic during the instance creation
     init {
         println("Inside init block")
         nameLength = name.length
